@@ -25,21 +25,22 @@ Para realizar el montaje físico se necesitan los siguientes materiales:
 
 Para armar el experimento, primero se deben hacer las dos rendijas en un rectángulo de papel aluminio con el bisturí; **esta es la parte más importante ya que deben estar, las rendijas, lo más cerca posible**. Después de tener las rendijas listas, se recorta en el cartón paja de tal forma que este sirva como soporte. A este cartón paja se le pegan dos más para que así la rendija se sostenga sola y no este tan cerca del piso, permitiendo que sea más fácil el uso del láser. Para que sea más fácil ver el patrón de interferencia, se pinta una caja de zapatos con negro, sin embargo, este paso esta a criterio de cada persona implementarlo a su proyecto o no. Para finalizar se crea o busca, como en este caso, un soporte para poner el láser permitiendo una fácil manipulación del mismo y se enciende para que la luz pase por alguna de las dos rendijas (sin estar seguros de por cual paso) y termine en la caja de zapatos. Así quedo el montaje:
 
-<img src="imagenes/experimento/montaje2.jpg" width="500">
+<img src="imagenes/experimento/montaje6.jpg" width="500">
 
-<img src="imagenes/experimento/montaje1.jpg" width="500">
+<img src="imagenes/experimento/montaje5.jpg" width="500">
 
-<img src="imagenes/experimento/montaje3.jpg" width="500">
+_Si desea ver más imagenes del montaje las puede encontrar en la carpeta imagenes/experimento_ 
 
 ## Resultados
 
-<img src="imagenes/experimento/result1.jpg" width="400">
-<img src="imagenes/experimento/result2.jpg" width="400">
-<img src="imagenes/experimento/result3.jpg" width="400">
+<img src="imagenes/experimento/result10.jpg" width="400">
+<img src="imagenes/experimento/result12.jpg" width="400">
+<img src="imagenes/experimento/result9.jpg" width="400">
+<img src="imagenes/experimento/result11.jpg" width="400">
 <img src="imagenes/experimento/result6.jpg" width="400">
-<img src="imagenes/experimento/result4.jpg" width="400">
-<img src="imagenes/experimento/result5.jpg" width="400">
+<img src="imagenes/experimento/result7.jpg" width="400">
 
+_Si desea ver más imagenes del montaje las puede encontrar en la carpeta imagenes/experimento_ 
 ## Explicación
 
 Para explicar los resultados obtenidos en este experimento primero debemos representarlo en una matriz.
@@ -67,7 +68,9 @@ Después de dos clics esta matriz queda de la siguiente forma:
 <img src="imagenes/matricesYvectores/matrizProbabilisticaDosClicks.png" width="500">
 
 Ahora al sacar el módulo al cuadrado del primer vector de estado y comparar ambos vectores, notamos una única diferencia:
+
 <img src="imagenes/matricesYvectores/vectorEstadoImaginarioModuloAlCuadrado.png" width="500">
+
 <img src="imagenes/matricesYvectores/vectorEstadoProbabilistico.png" width="500">
 
 En la posición 5 el primer vector de estado hay un 0 mientras que en el otro vector tiene 1/3, viéndose de **forma algebraica el fenómeno de interferencia**.
@@ -97,6 +100,30 @@ Vectores: [(R, I), (R, I), (R, I), (R, I), ...]
 ## Pre-requisitos
 
 Para asegurar el funciinamiento del simulador se recomienda tener instalado python en su computador; preferiblemente la versión 3.9. Además se debe tener instalada la libreria matplot para poder mostrar los diagramas.
+
+## Resultados simulador
+
+Al invocar **quantumSimulator()**, estos seran los resultados:
+
+<img src="imagenes/simulador/unclickCuantico.png" width="400">
+
+<img src="imagenes/simulador/dosClicksCuantico.png" width="400">
+
+<img src="imagenes/simulador/tresClicksCuantico.png" width="400">
+
+<img src="imagenes/simulador/resultadoCuantico.jpeg" width="1000">
+
+Al invocar **probabilisticSimulator()**, estos seran los resultados:
+
+<img src="imagenes/simulador/unclick.png" width="400">
+
+<img src="imagenes/simulador/dosClicks.png" width="400">
+
+<img src="imagenes/simulador/tresClicks.png" width="400">
+
+<img src="imagenes/simulador/resultadoProbabilistico.jpeg" width="1000">
+
+_Los resultados de las matrices y vectores son levemente dificiles de leer como consecuencia de los decimales, sin embargo no es nada diferente a lo que se explicó con anterioridad._
 
 ## Built with
 
